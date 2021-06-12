@@ -101,30 +101,14 @@
 
           <h3>Materials and Methods</h3>
           <p>
-            The design of the incubator includes the chamber design, electronic design, and software design. 
-            Additionally software design has two parts. One for the microcontroller and other for the android. 
-            Let’s discuss them one by one.
+            
           </p>
 
-          <div class="box">
-           <img src="assets/images/stepper-motor-windings.png" alt="winding">
-          </div>
-          <div id="capt_cont">
-            Fig: Unipolar Stepper Motor Ciol Windings
-          </div>
+          <div class="box_90"><img src="assets/images/seis1.png" alt="winding"></div>
+          <div class="capt_cont">Fig: ISEIS Components</div>
 
 
-          <p>
-            The stepper motor is rotated by switching individual phases ON for a given 
-            timeone by one. The sequence is given in the graph below.
-          </p>
-
-          <div class="box">
-            <img src="assets/images/stepper-motor-timing-diagram.png" alt="Timingdiagram">
-          </div>
-          <div id="capt_cont">
-            Fig: Stepper Motor Timing Diagram
-          </div>
+ 
 
         </div>
         <div class="section">  
@@ -138,16 +122,6 @@
 
           <h3>Circuit Discussion :</h3>
             <p>
-              The circuit diagram for interfacing stepper motor to 8051 is shown above. 
-              P1.0,P1.1, P1.2 and P1.3 pins are used for controlling the phases A1, A2, A3 and A4 
-              ofthe stepper motor respectively. ULN2003 is used for driving the individual 
-              phasesof the stepper motor. ULN2003 is a darlington transistor array used for 
-              driving highcurrent loads such as relays and motors. ULN2003 has 8 individual 
-              channels eachwith 1A capacity. The channels can be paralleled to increase the 
-              current capacity.Each channels are fitted with individual freewheeling diodes. 
-              The ULN2003 is op-erated in current sinking mode. Each channel is activated by 
-              giving a logic LOWat the corresponding input. For example if we make pin 1 of 
-              ULN2003 LOW, phaseA1 of the stepper motor gets switched ON.
             </p>
         </div>
 
@@ -155,7 +129,7 @@
 
           <h3>Assembly Program : stepper_8051.asm</h3>
             <div class="prog_cont">
-              <embed type="text/html" src="codes/STEPPER_8051.asm"  width="500" height="500">
+              <embed type="text/html" src="codes/xx"  width="500" height="500">
             </div>
   
           
